@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<!--esta es mi practica 73-->
+
+<head>
+    <title>Practica 73</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <script>
+        var a;
+        var b;
+        var suma;
+        a, b, suma;
+        a = prompt('Enter the first value:', '');
+        b = prompt('Enter the second value:', '');
+        a = parseInt(a);
+        b = parseInt(b);
+        if (isNaN(a) || isNaN(b)) {
+            document.write('One of the two values entered is not numeric.');
+        } else {
+            suma = a + b;
+            document.write('This is the sum of the values:');
+            document.write('<br>');
+            document.write(suma);
+        }
+    </script>
+
+</body>
+
+</html>
